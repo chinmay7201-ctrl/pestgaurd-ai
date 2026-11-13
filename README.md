@@ -18,4 +18,5 @@ Open http://127.0.0.1:8000
 PASTE_YOUR_WOKWI_LINK_HERE
 
 ## Team
-NAME 1, NAME 2, NAME 3
+ syeda saniyah , pushpalatha kn , chinmayee hr
+ 
