@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "author": "PestGuard",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -126.1, "left": 38.2, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -130, "left": 180, "attrs": { "color": "red" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": -60, "left": 220, "attrs": { "value": "220" } },
+    { "type": "wokwi-buzzer", "id": "bz1", "top": -150, "left": 300, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:VCC", "uno:5V", "red", [] ],
+    [ "pot1:GND", "uno:GND.1", "black", [] ],
+    [ "pot1:SIG", "uno:A0", "green", [] ],
+    [ "uno:13", "r1:1", "orange", [] ],
+    [ "r1:2", "led1:A", "orange", [] ],
+    [ "led1:C", "uno:GND.1", "black", [] ],
+    [ "uno:8", "bz1:2", "blue", [] ],
+    [ "bz1:1", "uno:GND.1", "black", [] ]
+  ],
+  "dependencies": {}
+}
