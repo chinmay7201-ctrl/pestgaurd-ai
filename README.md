@@ -15,7 +15,7 @@ python app.py
 Open http://127.0.0.1:8000
 
 ## Wokwi simulation
-PASTE_YOUR_WOKWI_LINK_HERE
+https://wokwi.com/projects/480557389545852929
 
 ## Team
  syeda saniyah , pushpalatha kn , chinmayee hr
